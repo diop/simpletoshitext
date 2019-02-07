@@ -17,7 +17,7 @@ type command struct {
 	Sell    string `json:"SELL"`
 }
 
-func getHelpCommands(c echo.Context) error {
+func GetHelp(c echo.Context) error {
 	cmd := command{
 		Help:    "HELP",
 		Create:  "CREATE",
