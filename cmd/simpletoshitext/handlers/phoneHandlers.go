@@ -9,8 +9,8 @@ import (
 )
 
 type Phone struct {
-	Number  string `json:number`
-	Country string `json:country`
+	Number  string `json:"number"`
+	Country string `json:"country"`
 }
 
 func AddPhone(c echo.Context) error {

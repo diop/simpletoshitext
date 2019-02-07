@@ -1,7 +1,8 @@
 package router
 
 import (
-	"projects/echo-server-template/api/middlewares"
+	"github.com/diop/simpletoshitext/cmd/simpletoshitext/groups"
+	"github.com/diop/simpletoshitext/cmd/simpletoshitext/middlewares"
 
 	"github.com/labstack/echo"
 )
@@ -13,7 +14,7 @@ func New() *echo.Echo {
 	middlewares.SetMainMiddlewares(e)
 
 	// Set main routes
-	api.MainGroup(e)
+	groups.MainGroup(e)
 
 	return e
 }

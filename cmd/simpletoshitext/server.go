@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/jasmines-co/toshitext/cmd/toshitext/router"
+	"github.com/diop/simpletoshitext/cmd/simpletoshitext/router"
 )
 
 func main() {

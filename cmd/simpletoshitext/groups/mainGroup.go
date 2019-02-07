@@ -1,7 +1,7 @@
 package groups
 
 import (
-	handlers "github.com/jasmines-co/toshitext/cmd/toshitext/handlers"
+	handlers "github.com/diop/simpletoshitext/cmd/simpletoshitext/handlers"
 
 	"github.com/labstack/echo"
 )

@@ -10,13 +10,13 @@ import (
 )
 
 type User struct {
-	ID            int    `json:id`
-	Username      string `json:username`
-	FirstName     string `json:firstName`
-	LastName      string `json:firstName`
-	Status        string `json:status`
-	Balance       string `json:balance`
-	WalletAddress string `json:walletAddress`
+	ID            int    `json:"id"`
+	Username      string `json:"username"`
+	FirstName     string `json:"firstName"`
+	LastName      string `json:"lastName"`
+	Status        string `json:"status"`
+	Balance       string `json:"balance"`
+	WalletAddress string `json:"walletAddress"`
 }
 
 func AddUser(c echo.Context) error {
